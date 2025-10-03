@@ -5,8 +5,9 @@
   /* phóng to full màn hình */
   background-repeat: no-repeat;
   /* không lặp lại */
+  background-position: center; 
   
- 
+ height: 100vh;
 }
 
 #logo {
@@ -28,6 +29,8 @@
 }
 
 .menu {
+  
+  list-style-type: none;  /* bỏ dấu chấm tròn đen */
   display: flex;
   gap: 300px;
   width: 300px;
@@ -44,7 +47,9 @@
 }
 
 .menu a {
+  text-decoration: none;  /* bỏ dấu gạch chân */
   color: white
+  
 }
 
 
