@@ -15,9 +15,9 @@
   left: 70px;
   top: 30px;
 
-  width: 150px;
+  width: 120px;
   /* chỉnh kích thước ngang */
-  height: 150px;
+  height: 120px;
   /* tự động giữ tỉ lệ ảnh */
   display: block;
   /* tránh khoảng trống dư thừa */
@@ -98,11 +98,11 @@
 
 } 
 
-.danhsachchuong
+.daiso
 {
-   position: absolute;
+  position: absolute;
   top:370px;
-  left:180px;
+  left:200px;
   color: rgb(247, 247, 247);           /* màu chữ */
   font-size: 40px;  
  
@@ -113,8 +113,23 @@ li {
   margin-bottom: 15px; /* Tạo khoảng cách giữa các mục danh sách */
 }
 
-.danhsachchuong a
+.daiso a
 {
   color : white;
 }
+.hinhhoc
+{
+  position: absolute;
+  top:370px;
+  left:1300px;
+  color: rgb(247, 247, 247);           /* màu chữ */
+  font-size: 40px;  
+ 
+  
+}
+.hinhhoc a
+{
+  color : white;
+}
+
 
